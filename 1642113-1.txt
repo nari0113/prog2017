@@ -1,0 +1,348 @@
+問題1
+リポジトリのURL（https://github.com/ユーザ名/prog2017/ の「ユーザ名」を自分のユーザ名で置き換えた
+もの）を第1 回レポート提出時に報告せよ。
+問題2
+リポジトリhttps://github.com/taroyabuki/2017prog のフォルダstudents に，「学生番号.txt」
+（例：1234567.txt）というファイルを置くためのプルリクエストを実行せよ。
+問題3
+Jupyter Notebook を以下の手順で起動せよ。
+1. スタートメニューのフォルダAnaconda3 (64-bit) の中にあるAnaconda Prompt を起動する。（注意：このプロンプ
+トは開いたままにしておくこと。これを閉じるとJupyter Notebook も動作しなくなる。）
+2.「c:」エンター
+3.「cd \cit\prog2017」エンター（ここでエラーが出る場合，GitHub からのクローン方法が間違っている。）
+4.「jupyter notebook」エンター
+5.（しばらく待つとウェブブラウザに「Home」というタブが現れる。）
+最初にフォルダを移動しているのは，Jupyter Notebook にc:\cit\prog2017 にファイルを保存させるためである。
+問題4
+2**10  1024
+問題5
+5/2 2.5  5//2  2 小数点が切り捨てられる
+問題6
+'あいうえお'  'あいうえお'
+問題7
+import random #モジュールの読み込み
+data = ['goo','choki','pa'] #リストの作成
+data_choice = random.choice(data) #ランダム選択
+print(data_choice) #結果の表示
+goo
+問題8
+goo choki paの中からランダムで結果を表示する
+問題9
+ここまで作業したnotebook を，01-note.ipynb という名前で保存し，GitHub のリポジトリprog2017 に追加せ
+よ。
+問題10
+データには型があります。1 は（ ）型，'abc' は（ ）型です。
+問題11
+apple=100
+orange = 60
+apple*3+orange*2
+540
+問題12
+0.1+0.1+0.1
+0.30000000000000004
+問題13
+1/10+1/10+1/10
+3/10
+問題14
+5%2  1   5**2  25
+%は割り算　**は累乗
+問題15
+(1+2)*3
+9
+問題16
+1 > 0.4 True
+1 < 0.4 False
+問題17
+1 <= 1  True
+1 >= 1  True
+問題18
+1==1    True
+2!=2    False
+問題19
+i =3          i=3       i=3       i=3       i=3
+i +=2         i*=2      i/=2      i%=2      i**=2
+i             i         i         i         i
+5             6         1.5       1         9
+問題20
+len('tomorrow') という関数の呼び出しでは，文字列'tomorrow' は関数len の（ ）と呼ばれ，結果として
+得られる整数の8 は（ ）と呼ばれます
+問題21
+len('abcde')      len({0,1,2,})
+5                  3
+問題22
+'abc'+'xyz'
+'abcxyz'
+問題23
+'python'+str(3.5)
+問題24
+list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+list(range(1,11))
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+問題25
+list(range(2,21))
+[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+問題26
+address = 'Tokyo,Japan'
+address.split(',')
+['Tokyo', 'Japan']
+問題27
+address.split('o')
+['T', 'ky', ',Japan']
+問題28
+あるデータ型だけが独自に持っている関数のことを，（ ）と呼びます。
+問題29
+address.index('t')
+2
+address.index('p')
+5
+問題30
+address.upper()
+'TOKYO,JAPAN'
+問題31
+'www.example.com'.strip('cmowz.')
+'example'
+問題32
+address.lower()
+'tokyo,japan'
+問題33
+オプショナル
+問題34
+オプショナル
+問題35
+オプショナル
+問題36
+オプショナル
+問題37
+from datetime import *
+date_a = date(2008, 1, 1)
+date_b = date(2008, 1, 5)
+result = date_b - date_a
+print(result)
+366 days, 0:00:00
+問題38
+date_a.year
+2008
+date_a.month
+1
+date_a.day
+1
+問題39
+from datetime import *
+today = date.today()
+birthday = date(1998,1,13)
+life = today - birthday
+print(life.days)
+7078
+問題40
+today.weekday()
+1
+問題41
+|date|
+|:--|
+|year|
+|month|
+|day|
+|:--|
+|weekday()|
+問題42
+オプショナル
+問題43
+オプショナル
+問題44
+オプショナル
+問題45
+date_c = date(2000,5,5)
+tmp = '2000,5,5'
+tmp2 = (2000,5,5)
+問題46
+
+問題47
+from datetime import *
+today = date.today()
+birthday = date(2016, 5, 10)
+life = today - birthday
+print(life.days)
+7078
+問題48
+オプショナル
+問題49
+list_int = [100, 11, 102, 8]
+print(list_int)
+[100, 11, 102, 8]
+list_mix = [2, 1.732, 'test']
+print(list_mix)
+[2, 1.732, 'test']
+問題50
+オプショナル
+問題51
+list_mix[2]
+'test'
+問題52
+len(list_mix)
+3
+問題53
+list_int[-1]
+3
+問題54
+list_int[0] = -1
+list_int
+[-1,1,2,3]
+問題55
+list_int=[-1,1,2,3]
+list_int. insert(1,5)
+list_int
+[-1,5,1,2,3]
+問題56
+list_int
+[-1]
+list_mix
+[2,1.732, 'taro']
+問題57
+list_mix.remove('test')
+list_mix
+[2,1.732]
+問題58
+list2 = list_int + list_mix
+list2
+[-1, 2, 1.732, 'taro']
+問題59
+list_int.extend(list_mix)
+list_int
+[-1, 2, 1.732, 'taro']
+問題60
+問題59の場合は元のlist_intが変わっているが問題58は元のlist_intは変わっていない
+問題61
+list_f = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+list_f[0:3]
+[0, 1, 1]
+問題62
+list_f[2:]
+[1, 2, 3, 5, 8, 13, 21, 34, 55]
+問題63
+list_f[:4]
+[0, 1, 1, 2]
+問題64
+list_test = [4, 9, 3, -1, 0]
+list_test. reverse()
+list_test
+[0, -1, 3, 9, 4]
+問題65
+sorted(list_test)
+[-1, 0, 3, 4, 9]
+問題66
+list_test. sort()
+list_test
+[-1, 0, 3, 4, 9]
+問題67
+list_test. sort()
+list_test.reverse()
+list_test
+[9, 4, 3, 0, -1]
+問題68
+list_os = ['windows','mac','linux','BeOS']
+list_os.sort()
+list_os
+['BeOS', 'linux', 'mac', 'windows']
+list_os = ['Windows','Mac','linux','BeOS']
+list_os.sort()
+list_os
+['BeOS', 'Mac', 'Windows', 'linux']
+問題69
+オプショナル
+問題70
+a = []
+a.append(100)
+a
+[100]
+問題71
+リストにも，いろいろなメソッドがあります。要素を追加するときは（ ）が使われ，要素を昇順に並べ替える
+には（ ）を使います。（ ）を使うと，リストの並びが逆順になります。
+問題72
+空っぽのリストを作り，適当な要素を追加してみましょう。1，2，3 や'a'，'b'，'c' など，簡単な要素で構いま
+せん。
+問題73
+リストの要素を削除するメソッドに，remove があります。あるリストに同じ要素が2 個以上あるとき，remove を
+使うとどうなるのでしょうか？
+問題74
+list_int = [9,2,5]
+print(list_int)
+[9,2,5]
+list_int.insert(3,4)
+list_int
+[9,2,5,4]
+list_int.insert(4,1)
+list_int
+[9,2,5,4,1]
+問題75
+a = (1, 2, 3, '100 yen')
+問題76
+b=list(a)
+問題77
+a = (1,2,3)
+a={1,2,3}
+a.add(1000)
+a
+{1,2,3,1000}
+a.add(5)
+a
+{1, 2, 3, 5, 10, 1000}
+問題78
+a
+{1, 2, 3, 5, 10, 1000}
+2 in a
+Tlue
+10 in a
+Tlue
+問題79
+a = [1,2,3]
+b = set(a)
+b
+{1,2,3}
+問題80
+dic = {1:'Amelica',39:'Italy',86:'china'}
+問題81
+81 in dic
+False
+39 in dic
+Tlue
+問題82
+dic[81]= 'Japan'
+dic
+{1: 'Amelica', 39: 'Italy', 81: 'Japan', 86: 'china'}
+問題83
+dic[81]='Nippon'
+dic
+{1: 'Amelica', 39: 'Italy', 81: 'Nippon', 86: 'china'}
+問題84
+dic[1]='Nippon'
+dic
+{1: 'Nippon', 39: 'Italy', 81: 'Nippon', 86: 'china'}
+問題85
+dic.pop(1)
+dic
+{39: 'Italy', 81: 'Nippon', 86: 'china'}
+問題86
+a = {}
+a['orange'] = 140
+a['apple'] = 100
+a
+{'apple': 100, 'orange': 140}
+問題87
+a = {}
+a['A'] = 'a'
+a['B'] = 'b'
+a['C'] = 'c'
+a
+{'A': 'a', 'B': 'b', 'C': 'c'}
+問題88
+a = {'Amelica':1,'Italy':39, 'China':86}
+a['Amelica']
+1
+問題89
+オプショナル
+問題90
+角括弧[]：リスト（変更可・重複あり）  appendで末尾に追加
+丸括弧():タプル（変更不可・重複あり）
+波括弧{要素A,要素B,...}:セット（変更可・重複なし）　　addで追加
+波括弧{キーA:値A, キーB:値B,...}:辞書
