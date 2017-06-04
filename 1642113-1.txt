@@ -1,3 +1,10 @@
+中間レポート
+
+1642113　松坂成敏
+
+github(URL)
+https://github.com/nari0113/prog2017
+
 問題1
 リポジトリのURL（https://github.com/ユーザ名/prog2017/ の「ユーザ名」を自分のユーザ名で置き換えた
 もの）を第1 回レポート提出時に報告せよ。
